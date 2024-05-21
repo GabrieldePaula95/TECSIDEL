@@ -63,39 +63,40 @@
       <input type="text" placeholder="Mão Unica">
     </div>
     <fieldset>
-      <legend>Habilitado para Tag</legend>
-      <div>
-        <input type="radio" id="Sim" name="habilitado_tag" value="Sim" checked>
-        <label for="Sim">Sim</label>
-      </div>
-      <div>
-        <input type="radio" id="Nao" name="habilitado_tag" value="Não">
-        <label for="Nao">Não</label>
-      </div>
-    </fieldset>
+    <legend>Habilitado para Tag</legend>
+    <span>
+      <input type="radio" id="Sim_H" name="habilitado" value="Sim" checked>
+      <label for="Sim_H">Sim</label>
+    </span>
+    <span>
+      <input type="radio" id="Nao_H" name="habilitado" value="Não">
+      <label for="Nao_H">Não</label>
+    </span>
+  </fieldset>
     <div>
-      <label>Tipo de Veiculo</label>
-      <input type="text" placeholder="Selecione">
+      <label for="tipo-veiculo">Tipo de Veículo</label>
+      <input type="text" id="tipo-veiculo" placeholder="Selecione" style="background-color: white; border: 1px solid #E2E1E5;">
     </div>
     <div>
-      <label>Valor da tarifa</label>
-      <input type="text" placeholder="Digite">
+      <label for="valor-tarifa">Valor da Tarifa</label>
+      <input type="text" id="valor-tarifa" placeholder="Digite" style="background-color: white; border: 1px solid #E2E1E5;">
     </div>
+
     <fieldset>
       <legend>Possui isenção de pagamento</legend>
-      <div>
-        <input type="radio" id="Sim_isencao" name="isencao_pagamento" value="Sim" checked>
-        <label for="Sim_isencao">Sim</label>
-      </div>
-      <div>
-        <input type="radio" id="Nao_isencao" name="isencao_pagamento" value="Não">
-        <label for="Nao_isencao">Não</label>
-      </div>
+      <span>
+        <input type="radio" id="Sim" name="isencao" value="Sim" checked>
+        <label for="Sim">Sim</label>
+      </span>
+      <span>
+        <input type="radio" id="Nao" name="isencao" value="Não">
+        <label for="Nao">Não</label>
+      </span>
     </fieldset>
-    <div id="button">
-      <button class="btn btn-secondary">Cancelar</button>
-      <button class="btn btn-primary">Salvar</button>
-    </div>
+    <span id="button">
+      <button>Cancelar</button>
+      <button>Salvar</button>
+    </span>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
