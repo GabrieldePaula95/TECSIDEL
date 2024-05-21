@@ -70,57 +70,6 @@ nav {
   grid-area: nav;
   background: white;
   display: flex;
-  align-items: start;
-  justify-content: space-between;
-  height: 100vh;
-  flex-direction: column;
-}
-
-#logo {
-  width: 80%;
-  margin: 1.8rem .7rem 7.0rem 1.8rem;
-}
-
-header {
-  grid-area: header;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  display: flex;
-
-  justify-content: space-between;
-}
-
-header div {
-  display: flex;
-  gap: 9.0rem;
-  align-items: center;
-  justify-content: center;
-}
-
-header div p {
-  margin-top: 0.8rem;
-  font-size: 220%;
-  padding: 2.3rem;
-  border-bottom: 2px solid #091E3A;
-}
-
-#user {
-  display: flex;
-  gap: .7rem;
-  align-items: center;
-  justify-content: center;
-}
-
-#user p {
-  border: none;
-}
-
-nav {
-  grid-area: nav;
-  background: white;
-  display: flex;
   justify-content: space-between;
   height: 100vh;
   flex-direction: column;
@@ -136,7 +85,7 @@ nav button {
   align-items: center;
   gap: 1%;
   text-align: center;
-  font-size: 160%;
+  font-size: 240%;
   border: none;
   background: none;
   margin-left: 3%;
@@ -144,7 +93,7 @@ nav button {
 }
 
 nav button img {
-  width: 3.5rem;
+  width: rem;
 }
 
 #description {
@@ -161,6 +110,7 @@ nav button img {
   grid-area: form;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   margin: 0 1.8rem 1.8rem 1.8rem;
   background: white;
   border-radius: 1rem;
@@ -252,7 +202,7 @@ fieldset span label {
   padding: 3%;
   border-radius: 0.5rem;
   width: 47%;
-  font-size: 1.4rem;
+  font-size: 240%;
 }
 
 #button button:first-child {
