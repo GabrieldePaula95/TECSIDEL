@@ -92,10 +92,6 @@ nav button {
   margin-bottom: 24px;
 }
 
-nav button img {
-  width: rem;
-}
-
 #description {
   grid-area: description;
   display: flex;
